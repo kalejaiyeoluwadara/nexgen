@@ -4,6 +4,8 @@ import Hero2 from "./Hero2";
 import Nav from "../Nav/Nav";
 import Hero3 from "./Hero3";
 import Hero4 from "./Hero4";
+import Hero5 from "./Hero5";
+import Faq from "../faq/Faq";
 
 function Hero() {
   return (
@@ -13,6 +15,8 @@ function Hero() {
       <Hero2 />
       <Hero3 />
       <Hero4 />
+      <Hero5 />
+      <Faq />
     </div>
   );
 }
