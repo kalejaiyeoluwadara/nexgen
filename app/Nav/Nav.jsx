@@ -5,7 +5,7 @@ import logo from "../../assets/logo.svg";
 import Image from "next/image";
 function Nav() {
   return (
-    <div className="flex absolute top-0 left-0 w-full py-[24px] items-center justify-between sm:px-[30px] ">
+    <div className="flex  relative top-0 w-full py-[24px] items-center justify-between sm:px-[30px] ">
       <section>
         <Image src={logo} className=" object-cover w-[44px] h-[32px]  " />
       </section>

@@ -25,7 +25,7 @@ h2{
   @apply font-medium font-lora tablet:text-[36px] sm:text-[40px] text-[24px] ;
 }
 h3{
-  @apply font-medium font-urbanist tablet:text-[20px] text-[36px];
+  @apply font-medium font-lora tablet:text-[20px] text-[36px];
 }
 p{
   @apply text-[24px]
