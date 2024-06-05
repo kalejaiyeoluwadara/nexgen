@@ -16,7 +16,7 @@ function Hero1() {
         <span className="text-primary">Next Generation</span> of Tech
         Trailblazers
       </h1>
-      <p className="w-[710px] text-white text-opacity-70  text-center ">
+      <p className="w-[610px] text-[24px] text-white text-opacity-70  text-center ">
         Our flexible, in-demand tech courses are tailored for you to learn and
         advance valuable skills at your convenience.
       </p>
