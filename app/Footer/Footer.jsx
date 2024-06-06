@@ -85,7 +85,7 @@ function Footer() {
           </div>
         </section>
       </article>
-      <section className="flex  justify-between">
+      <section className="flex mt-[52px] justify-between">
         <p className="  text-opacity-[0.8] text-white ">
           Copyright 2024 © Nexgen.{" "}
         </p>

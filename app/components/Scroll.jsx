@@ -46,7 +46,7 @@ function Scroll2() {
           )}
         </AnimatePresence>
 
-        <FaArrowDownLong className="text-white" size={20} />
+        <FaArrowUpLong className="text-white" size={20} />
       </motion.div>
     </Link>
   );
