@@ -10,11 +10,13 @@ function Nav() {
         <Image src={logo} className=" object-cover w-[44px] h-[32px]  " />
       </section>
       <section className="flex gap-[20px]  ">
-        {["courses", "students", "about", "articles", "contact"].map(
+        {["courses", "students", "about", "articles", "contact us"].map(
           (tar, id) => {
             return (
               <li className="text-white hover:text-opacity-[1] transition-all text-[16px] capitalize font-normal font-urbanist text-opacity-60 list-none gap-20  ">
-                <Link href={`/${tar}`}>{tar}</Link>
+                <Link href={`/${tar === "contact us" ? "contact" : tar}`}>
+                  {tar}
+                </Link>
               </li>
             );
           }

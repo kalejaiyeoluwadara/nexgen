@@ -58,7 +58,9 @@ function Footer() {
                 {["home", "about us", "contact", "courses"].map((d, id) => {
                   return (
                     <li className="text-white text-[16px] capitalize text-opacity-[0.8] ">
-                      <Link href={`/${d}`}>- {d}</Link>
+                      <Link href={`/${d === "about us" ? "about" : d}`}>
+                        - {d}
+                      </Link>
                     </li>
                   );
                 })}
