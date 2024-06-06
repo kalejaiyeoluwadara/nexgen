@@ -25,7 +25,7 @@ const Faq = () => {
   return (
     <div
       id="faq"
-      className="w-screen min-h-screen text-white flex flex-col items-center justify-center sm:px-20 px-[10px] mb-[100px] bg-black"
+      className="w-screen min-h-screen text-white flex flex-col items-center justify-center  bg-black"
     >
       <motion.h1 className=" text-[36px] mb-[40px] text-center">
         Frequently Asked Questions

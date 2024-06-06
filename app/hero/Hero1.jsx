@@ -6,10 +6,10 @@ import Images from "./comp/Images";
 
 function Hero1() {
   return (
-    <div className="min-h-[100vh]  gap-[32px] pt-20  flex flex-col items-center justify-center w-full ">
+    <div className="min-h-[100vh]  gap-[32px] py-10  flex flex-col items-center justify-center w-full ">
       <Image
         src={bac}
-        className=" object-cover h-[100vh] w-full -z-10 absolute top-0 left-0  "
+        className=" object-cover min-h-[890px] w-full -z-10 absolute top-0 left-0  "
       />
       <h1 className="w-[1015px] text-white font-lora text-[60px]   ">
         Committed to Nurturing the{" "}
