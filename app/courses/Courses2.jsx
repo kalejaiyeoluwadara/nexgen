@@ -20,7 +20,7 @@ function Courses2() {
   ];
   return (
     <main className="bg-white">
-      <section className="mt-[80px] flex gap-[40px] justify-between w-full ">
+      <section className="mt-[80px] flex gap-[40px] items-center justify-between w-full ">
         <div className="flex flex-col gap-[20px]">
           {data.map((data, id) => {
             return <Slot title={data.title} sub={data.sub} img={data.icon} />;

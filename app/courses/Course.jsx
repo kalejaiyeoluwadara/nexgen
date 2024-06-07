@@ -10,15 +10,23 @@ function Course() {
         src={bac}
         className=" object-cover min-h-[890px] w-full -z-10 absolute top-0 left-0  "
       />
-      <div className=" mt-[110px] gap-[32px] items-center justify-center flex flex-col ">
-        <h1 className="w-[1208px] text-center  text-white font-lora text-[60px]   ">
-          Transforming & equipping the{" "}
-          <span className="text-primary">digital trailblazers</span> of the Next
-          Generation.
+      <div className=" mt-[110px] gap-[23px] items-center justify-center flex flex-col ">
+        <h1 className="w-[942px] text-center  text-white font-lora text-[60px]   ">
+          Learn the skills to build your
+          <span className="text-primary"> digital Future</span>
         </h1>
-        <p className="w-[558px] text-[24px] text-white text-opacity-70  text-center ">
-          Come help us build the education the world deserves.
+        <p className="w-[700px] text-[24px] text-white text-opacity-70  text-center ">
+          Want to become a trailblazer in the ever-evolving world of tech, enrol
+          now and be the pioneer of the Next Generation?
         </p>
+      </div>
+      <div className="w-full flex items-center justify-center mt-[65px]  ">
+        <Button
+          otherStyles={
+            "h-[62px] text-[20px] font-semibold font-lora w-[304px] "
+          }
+          title={"View our courses"}
+        />
       </div>
     </div>
   );

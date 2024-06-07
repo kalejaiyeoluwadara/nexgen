@@ -5,12 +5,12 @@ import Button from "../components/Button";
 
 function About1() {
   return (
-    <div className="min-h-[100vh]    w-full ">
+    <div className="min-h-[100vh] flex items-center justify-center w-full ">
       <Image
         src={bac}
-        className=" object-cover min-h-[890px] w-full -z-10 absolute top-0 left-0  "
+        className=" object-cover h-[100vh] w-full -z-10 absolute top-0 left-0  "
       />
-      <div className=" mt-[110px] gap-[32px] items-center justify-center flex flex-col ">
+      <div className=" -translate-y-20 gap-[32px] items-center justify-center flex flex-col ">
         <h1 className="w-[1208px] text-center  text-white font-lora text-[60px]   ">
           Transforming & equipping the{" "}
           <span className="text-primary">digital trailblazers</span> of the Next
