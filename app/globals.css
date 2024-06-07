@@ -33,6 +33,9 @@ p{
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+main{
+  @apply px-[110px] py-[80px]
+}
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
