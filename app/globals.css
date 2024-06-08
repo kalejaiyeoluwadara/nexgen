@@ -14,6 +14,12 @@
 .font-clashh1{
   font-family: ClashDisplay-Medium,sans-serif;
 }
+.flex-center{
+  @apply flex items-center justify-center
+}
+.cover{
+  @apply absolute top-0 left-0 h-full w-full
+}
 .font-clashsm{
   font-family: ClashDisplay-Semibold,sans-serif;
 }
@@ -22,6 +28,9 @@
 }
 .font-urbanist{
   font-family: "Urbanist", sans-serif;
+}
+.overlap{
+  @apply border-[1px] bg-gray-300  text-black text-[16px] font-clashmd  border-black
 }
 nav>a{
   @apply font-urbanist bg-red-300 text-[16px]
@@ -51,7 +60,7 @@ p{
   @apply   h-[48px] w-[48px] hover:border-gray-600 transition-all hover:bg-opacity-[0.6]  hover:border-[1px] flex items-center justify-center rounded-full bg-black 
 }
 main{
-  @apply px-[110px] py-[80px]
+  @apply px-[110px] min-h-screen w-screen py-[80px]
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */

@@ -22,13 +22,13 @@ function Card({ title, sub, img }) {
           user needs.
         </p>
         <div className="flex mt-4 ">
-          <div className="border-[1px] text-[8px] font-clashmd bg-white border-black px-4 py-3 rounded-[30px] ">
+          <div className="border-[1px] text-[8px] font-clashmd bg-white border-gray-400 px-4 py-3 rounded-[30px] ">
             Design
           </div>
-          <div className="border-[1px] text-[8px] font-clashmd bg-white border-black -translate-x-4 px-4 py-3 rounded-[30px] ">
+          <div className="border-[1px] text-[8px] font-clashmd bg-white border-gray-400 -translate-x-4 px-4 py-3 rounded-[30px] ">
             Visuals
           </div>
-          <div className="border-[1px] text-[8px] font-clashmd bg-white border-black -translate-x-[30px]  px-4 py-3 rounded-[30px] ">
+          <div className="border-[1px] text-[8px] font-clashmd bg-white border-gray-400 -translate-x-[30px]  px-4 py-3 rounded-[30px] ">
             Typography
           </div>
         </div>

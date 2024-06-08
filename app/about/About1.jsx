@@ -16,7 +16,7 @@ function About1() {
           <span className="text-primary">digital trailblazers</span> of the Next
           Generation.
         </h1>
-        <p className="w-[558px] text-[24px] text-white text-opacity-70  text-center ">
+        <p className="w-[678px] text-[32px] text-white text-opacity-70  text-center ">
           Come help us build the education the world deserves.
         </p>
       </div>

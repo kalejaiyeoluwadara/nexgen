@@ -3,14 +3,16 @@ import React from "react";
 const Container = ({ session, start, end, detail }) => {
   return (
     <div className="w-full bg-[#354C4D] text-white py-[45px] px-[51px] h-[368px] rounded-[40px] ">
-      <p className="text-gray-400 font-bold font-lora ">Session {session}</p>
+      <p className="text-gray-400 font-clashmd text-[12px]  ">
+        Session {session}
+      </p>
       <div className="mt-[58px]">
-        <h3 className="font-bold text-[30px] ">{start} Intake</h3>
-        <p className="mt-[2px] text-gray-400 font-bold font-lora ">
+        <h3 className=" font-clashsm text-[24px]  ">{start} Intake</h3>
+        <p className="mt-[2px] text-gray-400 text-[16px] font-clashmd ">
           Ends in {end}
         </p>
       </div>
-      <p className="mt-[25px]  font-lora ">{detail}</p>
+      <p className="mt-[25px] font-clashmd text-[16px] ">{detail}</p>
     </div>
   );
 };

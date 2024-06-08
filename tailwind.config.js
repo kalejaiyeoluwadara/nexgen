@@ -38,6 +38,7 @@ module.exports = {
         sec: "#0D292A",
         whites: "#FFFFFF",
         tertiary: "#354C4D",
+        pr2: "#E8FFB0",
       },
     },
   },
