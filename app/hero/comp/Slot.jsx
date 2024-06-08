@@ -3,7 +3,7 @@ import React from "react";
 
 function Slot({ img, title, sub }) {
   return (
-    <div className="flex flex-col w-[561px] text-black gap-[16px] border-[1px] border-gray-300 rounded-[20px] p-[32px]  ">
+    <div className="flex flex-col w-[561px] text-black gap-[16px] border-[1px] hover:border-gray-600 transition-all border-gray-300 rounded-[20px] p-[32px]  ">
       <div className="h-[48px] w-[48px] bg-primary rounded-[8px] flex items-center justify-center  ">
         <Image className="object-cover  " src={img} />
       </div>

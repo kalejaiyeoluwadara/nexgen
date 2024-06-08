@@ -8,7 +8,6 @@ import Courses4 from "./Courses4";
 function Page() {
   return (
     <div>
-      <Nav />
       <Course />
       <Courses2 />
       <Course2 />
