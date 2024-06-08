@@ -16,13 +16,13 @@ function Hero1() {
         <span className="text-primary">Next Generation</span> of Tech
         Trailblazers
       </h1>
-      <p className="w-[610px] text-[18px] text-white text-opacity-70  text-center ">
+      <p className="w-[710px] text-[24px] font-clashreg text-white text-opacity-70  text-center ">
         Our flexible, in-demand tech courses are tailored for you to learn and
         advance valuable skills at your convenience.
       </p>
       <Button
         color={"primary"}
-        otherStyles={"font-bold w-[230px] h-[62px] rounded-[50px] "}
+        otherStyles={" w-[230px] h-[62px] rounded-[50px] text-[18px] "}
         title={"Start Learning"}
       />
       <Images />
