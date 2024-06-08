@@ -13,7 +13,7 @@ function Button({ color, onClick, title, otherStyles }) {
         },
       }}
       onClick={onClick}
-      className={`flex items-center font-clash font-semibold ${
+      className={`flex items-center font-clashmd text-[16px] ${
         color === "primary" ? "bg-primary" : "bg-white"
       } rounded-[90px]  justify-center px-6 py-3 text-black ${otherStyles} `}
     >

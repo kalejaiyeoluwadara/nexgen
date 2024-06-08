@@ -8,10 +8,8 @@ function Comp() {
       <div className="h-[48px] w-[48px] bg-primary rounded-[8px] flex items-center justify-center  ">
         <Image className="object-cover  " src={light} />
       </div>
-      <h3 className="font-[700] text-[18px] ">
-        Explore Our Catalogue of Courses
-      </h3>
-      <p className="w-[676px] text-[28px] font-lora ">
+      <h1 className=" text-[18px] ">Explore Our Catalogue of Courses</h1>
+      <p className="w-[676px] text-[36px]  ">
         We meticulously plan your digital journey, then add a splash of
         studio-like creativity, making your brand shine online.
       </p>
@@ -27,7 +25,7 @@ function Comp() {
         />
         <Button2
           title={"Backend Development"}
-          styles={"border-[#0094FF] hover:bg-[#0094FF]  "}
+          styles={"border-[#0094FF] w-[236px] hover:bg-[#0094FF]  "}
         />
         <Button2
           title={"Frontend Development"}

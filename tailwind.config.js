@@ -27,7 +27,10 @@ module.exports = {
         anton: ["Anton", "sans-serif"],
         lora: ["Lora", "sans-serif"],
         urbanist: ["Urbanist", "sans-serif"],
-        clash: [" ClashDisplay-Medium", "sans-serif"],
+        clash: [" ClashDisplay-Regular", "sans-serif"],
+        clashmd: [" ClashDisplay-Medium", "sans-serif"],
+        clashsm: [" ClashDisplay-Semibold", "sans-serif"],
+        clashreg: [" ClashDisplay-Regular", "sans-serif"],
       },
       colors: {
         primary: "#B5FF00",

@@ -17,10 +17,10 @@ function Comp2() {
         </div>
         <div className="flex w-full items-center justify-between px-10 mt-10 ">
           <section className="flex flex-col items-start justify-center ">
-            <h1 className=" text-white font-bold text-[23px] ">
+            <h1 className=" text-white font-clashmd text-[23px] ">
               Product Design
             </h1>
-            <p className="w-[609px] font-lora mt-[10px] text-white text-[23px] ">
+            <p className="w-[609px] font-clashreg mt-[10px] text-white text-[23px] ">
               Dive into a world of creating stunning visuals and designs using
               Adobe Creative Cloud and graphic design principles that will make
               your brand stand out.
