@@ -14,8 +14,10 @@ function Footer() {
             <div className="flex gap-2 items-center justify-start ">
               <Image src={logo} className="object-cover  " />
               <div>
-                <h3 className="text-[20px] leading-[12px] ">NextGen</h3>
-                <p className="text-opacity-[0.6] text-white ">
+                <h3 className="text-[20px] font-clashsm leading-[12px] ">
+                  NextGen
+                </h3>
+                <p className="text-opacity-[0.6] font-clashsm text-white ">
                   Digital Academy
                 </p>
               </div>
@@ -28,8 +30,10 @@ function Footer() {
             </p>
           </article>
           <article className="mt-[88px]">
-            <h3>Subscribe to our newsletter</h3>
-            <p className="w-[444px] mt-[5px]  text-opacity-[0.8] text-white ">
+            <h3 className=" text-[20px] font-clashmd ">
+              Subscribe to our newsletter
+            </h3>
+            <p className="w-[444px] text-[16px] mt-[5px] font-clashreg text-opacity-[0.8] text-white ">
               The stories you’ll be talking about tomorrow —delivered straight
               to your inbox today
             </p>

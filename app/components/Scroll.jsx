@@ -18,35 +18,35 @@ function Scroll2() {
         onMouseLeave={() => {
           setShow(false);
         }}
-        className={` sm:visible  cursor-pointer z-40 flex items-center justify-center border-[1px] border-white border-opacity-40 transition-all  ${
-          show ? "pb-[30px]" : "pb-[0px]"
+        className={` sm:visible relative cursor-pointer z-40 flex items-center justify-center border-[1px] border-white border-opacity-40 transition-all delay-[0.6s]  ${
+          show ? "pb-[10px] text-black " : "pb-[0px] text-white "
         } rounded-[50%] sm:h-[95px] overflow-hidden sm:w-[95px] w-[60px] h-[60px] bg-none text-black `}
       >
         <AnimatePresence>
           {show && (
             <motion.div
               initial={{
-                top: "-100px",
+                top: "-200px",
                 left: "5px",
-                opacity: 1,
+                // opacity: 1,
               }}
               animate={{
                 top: 0,
                 left: 0,
-                opacity: 0,
+                // opacity: 0.,
               }}
               exit={{
-                top: "-100px",
-                left: "-30px",
-                opacity: 1,
+                top: "-200px",
+                left: "5px",
+                // opacity: 1,
               }}
-              transition={{ duration: 0.5, ease: "easeInOut" }}
+              transition={{ duration: 1.3, ease: "easeInOut" }}
               className="h-full absolute rounded-[50%] w-full -z-20 bg-white  "
             />
           )}
         </AnimatePresence>
 
-        <FaArrowUpLong className="text-white" size={20} />
+        <FaArrowUpLong className="" size={20} />
       </motion.div>
     </Link>
   );

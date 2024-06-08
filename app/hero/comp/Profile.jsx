@@ -8,7 +8,7 @@ function Profile({ img, role, name }) {
         <Image src={img} className=" h-full object-cover object-top w-full  " />
       </div>
       <div className="w-full">
-        <h3>{name}</h3>
+        <h3 className="font-clashmd">{name}</h3>
         <p className="capitalise">{role}</p>
       </div>
     </div>

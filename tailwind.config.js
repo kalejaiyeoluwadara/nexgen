@@ -31,6 +31,7 @@ module.exports = {
         clashmd: [" ClashDisplay-Medium", "sans-serif"],
         clashsm: [" ClashDisplay-Semibold", "sans-serif"],
         clashreg: [" ClashDisplay-Regular", "sans-serif"],
+        clashbold: [" ClashDisplay-Bold", "sans-serif"],
       },
       colors: {
         primary: "#B5FF00",

@@ -22,9 +22,7 @@ function Course() {
       </div>
       <div className="w-full flex items-center justify-center   ">
         <Button
-          otherStyles={
-            "h-[62px] text-[20px] transition-all hover:bg-opacity-[0.8] font-semibold font-lora w-[304px] "
-          }
+          otherStyles={"h-[62px] text-[20px]  w-[304px] "}
           title={"View our courses"}
         />
       </div>
