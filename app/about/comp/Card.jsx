@@ -14,11 +14,15 @@ function Card({ name, role, link1, link2, state = false }) {
         active ? "bg-primary text-black " : "bg-tertiary text-white "
       }  `}
     >
-      <h3 className="text-[24px]">{name}</h3>
-      <p>{role}</p>
+      <h1 className="text-[24px]">{name}</h1>
+      <p className="text-[18px]">{role}</p>
       <div className="flex gap-2">
-        <FaInstagram />
-        <FaXTwitter />
+        <div className="h-[39px] w-[39px] rounded-[8px] border-[1px] border-gray-400 flex items-center justify-center ">
+          <FaInstagram size={20} />
+        </div>
+        <div className="h-[39px] w-[39px] rounded-[8px] border-[1px] border-gray-400 flex items-center justify-center ">
+          <FaXTwitter size={20} />
+        </div>
       </div>
     </div>
   );

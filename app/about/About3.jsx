@@ -1,5 +1,5 @@
 import React from "react";
-import lady from "../../assets/lady.png";
+import lady from "../../assets/profile2.png";
 import Card from "./comp/Card";
 import Image from "next/image";
 function About3() {
@@ -17,7 +17,7 @@ function About3() {
         <div className="h-[740px] w-[449px] ">
           <Image
             src={lady}
-            className=" h-full w-full object-cover rounded-[32px] "
+            className=" h-full bg-[#E2E2E2] w-full object-cover rounded-[32px] "
           />
         </div>
         <div className="flex flex-col gap-[15px]">
