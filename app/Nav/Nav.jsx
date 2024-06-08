@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 function Nav() {
   const pathname = usePathname();
   return (
-    <div className="flex  relative top-0 w-full py-[24px] items-center justify-between sm:px-[30px] ">
+    <div className="flex absolute top-0 left-0 z-40 w-full py-[24px] items-center justify-between sm:px-[30px] ">
       <section>
         <Link href={"/"}>
           {" "}

@@ -68,7 +68,7 @@ const Faq = () => {
                   className="overflow-hidden"
                 >
                   <div
-                    className="p-4  text-[18px]   "
+                    className="p-4 font-normal font-clash text-[18px]   "
                     dangerouslySetInnerHTML={{ __html: faq.answer }}
                   />
                 </motion.div>

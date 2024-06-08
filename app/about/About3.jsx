@@ -6,10 +6,10 @@ function About3() {
   return (
     <main className="flex bg-sec flex-col">
       <div>
-        <h3 className="text-[36px] text-white ">
+        <h5 className="text-[36px] text-white ">
           Learn from experienced mentors & tutors
-        </h3>
-        <p className="text-white text-opacity-[0.8]">
+        </h5>
+        <p className="text-white text-[20px] text-opacity-[0.8]">
           Gain knowledge and skills from Industry Experts
         </p>
       </div>

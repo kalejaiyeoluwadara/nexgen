@@ -12,9 +12,9 @@ function Card({ title, sub, img }) {
         />
         <p className="absolute left-3 bottom-3">1-2Hour per week</p>
       </div>
-      <div className=" mt-2 ">
-        <h3 className="font-bold ">{title}</h3>
-        <p className="text-[15px] mt-1 ">
+      <div className=" mt-[28px] ">
+        <h5 className="text-[15px] ">{title}</h5>
+        <p className="text-[10px] mt-[10px] ">
           Dive into the world of UI/UX design and transform your ideas into
           experiences users love. Learn the secrets of visual design, understand
           user needs.

@@ -5,9 +5,17 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .font-anton {
   font-family: 'Anton', sans-serif;
+}
+.font-clash{
+  font-family: ClashDisplay-Regular,sans-serif;
+}
+.font-clashh1{
+  font-family: ClashDisplay-Medium,sans-serif;
+}
+.font-clashsm{
+  font-family: ClashDisplay-Semibold,sans-serif;
 }
 .font-lora {
   font-family: 'Lora', sans-serif;
@@ -19,16 +27,22 @@ nav>a{
   @apply font-urbanist bg-red-300 text-[16px]
 }
 h1{
-  @apply  font-medium tablet:text-[50px] font-lora sm:text-[64px] text-[35px] ;
+  @apply   font-clashh1 sm:text-[60px] text-[35px] ;
 }
 h2{
-  @apply font-medium font-lora tablet:text-[36px] sm:text-[40px] text-[24px] ;
+  @apply  font-clash tablet:text-[36px] sm:text-[40px] text-[24px] ;
 }
 h3{
-  @apply font-medium font-lora tablet:text-[20px] text-[36px];
+  @apply  font-clash tablet:text-[20px] text-[36px];
+}
+h4{
+  @apply font-clashh1 text-[36px]
+}
+h5{
+  @apply font-clashsm text-[24px]
 }
 p{
-  @apply text-[16px]
+  @apply font-clash text-[16px]
 }
 .no-scrollbar::-webkit-scrollbar {
   display: none;

@@ -3,7 +3,7 @@ import Slot from "./comp/Slots";
 import light from "../../assets/light.svg";
 function About2() {
   return (
-    <div className="flex py-[40px] px-[110px] min-h-[506px] bg-white justify-between items-center ">
+    <div className="flex py-[40px] px-[110px] min-h-[506px] bg-white justify-between items-start ">
       <Slot
         img={light}
         title={"Our Mission"}

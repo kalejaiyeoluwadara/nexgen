@@ -10,7 +10,7 @@ import Faq from "../faq/Faq";
 function Hero() {
   return (
     <div className="w-full h-full  ">
-      <Nav />
+      {/* <Nav /> */}
       <Hero1 />
       <Hero2 />
       <Hero3 />

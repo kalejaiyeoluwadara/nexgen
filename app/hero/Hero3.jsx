@@ -5,7 +5,7 @@ function Hero3() {
   return (
     <div className="min-h-full bg-white  py-[80px] w-full ">
       <section className="px-[110px]">
-        <h3 className="">What course are you interested in?</h3>
+        <h4 className="">What course are you interested in?</h4>
         <p className="w-[605px] text-[16px] ">Select the course to view more</p>
       </section>
       <section className="flex no-scrollbar pl-[110px] min-w-full overflow-x-scroll  mt-10 gap-[20px] ">

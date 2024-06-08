@@ -7,11 +7,12 @@ import Hero5 from "../hero/Hero5";
 import About2 from "./About2";
 import About3 from "./About3";
 import About4 from "./About4";
+import "../../public/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/WEB/css/clash-display.css";
 
 function Page() {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <About1 />
       <About2 />
       <About3 />

@@ -7,8 +7,8 @@ function Slot({ img, title, sub, sub2 }) {
       <div className="h-[48px] w-[48px] bg-primary rounded-[8px] flex items-center justify-center  ">
         <Image className="object-cover  " src={img} />
       </div>
-      <h3 className="font-[700] text-[24px] ">{title}</h3>
-      <p className="w-[531px]">{sub}</p>
+      <h5 className="font-[700] text-[24px] ">{title}</h5>
+      <p className="w-[531px] text-[16px] ">{sub}</p>
       <p>{sub2}</p>
     </div>
   );

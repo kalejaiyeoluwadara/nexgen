@@ -7,7 +7,7 @@ import five from "../../../assets/five.png";
 import Image from "next/image";
 function Images() {
   return (
-    <div className="flex mt-[24px] w-full h-auto items-end justify-center gap-[10px] ">
+    <div className="flex relative bottom-0 w-full h-auto mt-[24px] items-end justify-center gap-[10px] ">
       <Image src={one} className="obejct-cover  transition-all " />
       <Image src={two} className="obejct-cover  " />
       <Image src={three} className="obejct-cover  " />

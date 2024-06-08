@@ -7,7 +7,7 @@ function Slot({ img, title, sub }) {
       <div className="h-[48px] w-[48px] bg-primary rounded-[8px] flex items-center justify-center  ">
         <Image className="object-cover  " src={img} />
       </div>
-      <h3>{title}</h3>
+      <h5>{title}</h5>
       <p>{sub}</p>
     </div>
   );
