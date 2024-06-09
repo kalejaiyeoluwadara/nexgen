@@ -7,7 +7,7 @@ import Link from "next/link";
 function Scroll2() {
   const [show, setShow] = useState(false);
   return (
-    <Link href={"/"}>
+    <Link href={"#main"}>
       <motion.div
         whileTap={{
           scale: 0.975,

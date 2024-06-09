@@ -5,7 +5,10 @@ import Button from "../components/Button";
 
 function About1() {
   return (
-    <div className="min-h-[100vh] flex items-center  justify-center w-full ">
+    <div
+      id="main"
+      className="min-h-[100vh] flex items-center  justify-center w-full "
+    >
       <Image
         src={bac}
         className=" object-cover h-[100vh] w-full -z-10 absolute top-0 left-0  "

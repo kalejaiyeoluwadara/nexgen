@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "./comp/Profile";
 import profile1 from "../../assets/profile1.png";
 import profile2 from "../../assets/profile2.png";
+import profile3 from "../../assets/profile3.png";
 import Button from "../components/Button";
 function Hero4() {
   const data = [
@@ -12,7 +13,7 @@ function Hero4() {
     },
     {
       name: "Olaoye Jesumbo",
-      img: profile1,
+      img: profile3,
       role: "Senior Software Engineer",
     },
     {

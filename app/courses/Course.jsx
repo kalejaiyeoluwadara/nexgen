@@ -5,7 +5,10 @@ import Button from "../components/Button";
 
 function Course() {
   return (
-    <div className="min-h-[100vh]  relative py-20  flex flex-col items-center justify-center w-full ">
+    <div
+      id="main"
+      className="min-h-[100vh]  relative py-20  flex flex-col items-center justify-center w-full "
+    >
       <Image
         src={bac}
         className=" object-cover min-h-full w-full -z-10 absolute top-0 left-0   "

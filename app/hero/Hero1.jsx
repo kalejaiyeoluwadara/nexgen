@@ -6,7 +6,10 @@ import Images from "./comp/Images";
 
 function Hero1() {
   return (
-    <div className="min-h-[100vh]  relative gap-[32px] pt-40  flex flex-col items-center justify-center w-full ">
+    <div
+      id="main"
+      className="min-h-[100vh]  relative gap-[32px] pt-40  flex flex-col items-center justify-center w-full "
+    >
       <Image
         src={bac}
         className=" object-cover min-h-full w-full -z-10 absolute top-0 left-0  "
