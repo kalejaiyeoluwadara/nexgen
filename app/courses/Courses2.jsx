@@ -19,7 +19,7 @@ function Courses2() {
     },
   ];
   return (
-    <main className="bg-white">
+    <main id="courses2" className="bg-white">
       <section className="mt-[80px] flex gap-[40px] items-center justify-between w-full ">
         <div className="flex flex-col gap-[20px]">
           {data.map((data, id) => {

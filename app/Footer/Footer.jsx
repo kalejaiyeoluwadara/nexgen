@@ -62,7 +62,11 @@ function Footer() {
                 {["home", "about us", "contact", "courses"].map((d, id) => {
                   return (
                     <li className="text-white text-[16px] capitalize text-opacity-[0.8] ">
-                      <Link href={`/${d === "about us" ? "about" : d}`}>
+                      <Link
+                        href={`/${
+                          d === "about us" ? "about" : d === "home" ? " " : d
+                        }`}
+                      >
                         - {d}
                       </Link>
                     </li>
@@ -78,7 +82,7 @@ function Footer() {
                 {["Instagram", "LinkedIn", "Facebook"].map((d, id) => {
                   return (
                     <li className="text-white text-opacity-[0.8]">
-                      <Link href={"/"}>- {d}</Link>
+                      <Link href={"/"}>- {d === "home" ? " " : d}</Link>
                     </li>
                   );
                 })}
@@ -96,8 +100,8 @@ function Footer() {
           Copyright 2024 © Nexgen.{" "}
         </p>
         <div className="flex text-white text-opacity-[0.8] gap-[35px] ">
-          <p>Privacy Policy </p>
-          <p>Terms & Conditions</p>
+          <p className=" hov ">Privacy Policy </p>
+          <p className="hov">Terms & Conditions</p>
         </div>
       </section>
     </div>

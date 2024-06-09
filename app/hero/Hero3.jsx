@@ -38,7 +38,10 @@ function Hero3() {
   const scrollPercentage = (scrollLeft / scrollWidth) * 100;
 
   return (
-    <div className="min-h-full bg-white py-[80px] px-[110px] w-full">
+    <div
+      id="courses"
+      className="min-h-full bg-white py-[80px] px-[110px] w-full"
+    >
       <section>
         <h4>What course are you interested in?</h4>
         <p className="w-[605px] text-[16px]">Select the course to view more</p>

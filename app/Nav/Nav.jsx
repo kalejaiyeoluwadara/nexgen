@@ -44,7 +44,9 @@ function Nav() {
         )}
       </section>
       <section>
-        <Button title={"View Courses"} />
+        <Link href={"#courses"}>
+          <Button title={"View Courses"} />
+        </Link>
       </section>
     </div>
   );

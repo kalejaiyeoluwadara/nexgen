@@ -8,6 +8,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Nextgen",
   description: "Nextgen",
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/favicon.png",
+        href: "/favicon.png",
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/favicon.png",
+        href: "/favicon.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
