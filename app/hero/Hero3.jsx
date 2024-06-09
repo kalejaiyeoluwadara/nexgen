@@ -5,6 +5,7 @@ import chev1 from "../../assets/chev1.svg";
 import chev2 from "../../assets/chev2.svg";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { courses } from "../../utils/data";
 function Hero3() {
   const scrollRef = useRef(null);
   const [scrollWidth, setScrollWidth] = useState(0);
@@ -46,16 +47,8 @@ function Hero3() {
         ref={scrollRef}
         className="flex no-scrollbar mt-[40px] gap-4 w-full h-auto overflow-x-scroll"
       >
-        {[
-          "Graphic Design",
-          "UI/UX Design",
-          "Backend Development",
-          "Mastering UI Design",
-          "Graphic Design",
-          "UI/UX Design",
-          "Backend Development",
-        ].map((d, id) => {
-          return <Card key={id} title={d} />;
+        {courses.map((d, id) => {
+          return <Card key={id} route={d.route} title={d.course} />;
         })}
       </section>
       <section className="mt-[62px] items-center flex gap-[32px]">
