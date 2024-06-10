@@ -20,7 +20,7 @@ function CoursesTemp({ title, sub, tutor, role, rating, img, tutorImg }) {
       <div className="cover bg-black bg-opacity-[0.6]" />
 
       <>
-        <section className="text-white h-full mt-20 w-full relative z-40 flex flex-col items-start justify-start  ">
+        <section className="text-white h-full mt-20 w-full relative z-20 flex flex-col items-start justify-start  ">
           <h1>{title}</h1>
           <p className="w-[910px] text-[20px]  text-gray-200 ">{sub}</p>
           <Overlap />

@@ -70,7 +70,7 @@ function Nav() {
       </section>
       <AnimatePresence>
         {active && (
-          <div className="w-full absolute flex items-center justify-center  top-20  ">
+          <div className="w-full  absolute z-[100]  flex items-center justify-center  top-20  ">
             <motion.div
               initial={{
                 opacity: 0,
@@ -87,11 +87,13 @@ function Nav() {
               transition={{
                 duration: 0.4,
               }}
-              className="h-[403px] px-[48px] py-[32px] w-[659px] shadow-md rounded-[12px] bg-slate-50 "
+              className="h-[403px] relative  px-[48px] py-[32px] w-[659px] shadow-md rounded-[12px] bg-slate-50 "
             >
               <div>
-                <h1 className="text-[24px] font-semibold ">NexGen Courses</h1>
-                <p className="text-[16px] font-clashreg w-[90%] ">
+                <h1 className="text-[24px] text-black font-semibold ">
+                  NexGen Courses
+                </h1>
+                <p className="text-[16px] text-black font-clashreg w-[90%] ">
                   Our courses are flexible and tailored to fit your busy
                   lifestyle, allowing you to learn at your own pace.
                 </p>
@@ -109,18 +111,18 @@ function Nav() {
                     url: "backend-development",
                   },
                   {
-                    icon: ic4,
+                    icon: ic3,
                     title: "Frontend Development",
                     url: "backend-development",
                   },
                   {
-                    icon: ic1,
+                    icon: ic4,
                     title: "Mobile App Development",
                     url: "graphic-design",
                   },
                 ].map((d, id) => {
                   return (
-                    <Link href={`/${d.url}`}>
+                    <Link href={`/courses/${d.url}`}>
                       <div className="w-[270px] h-[48px] gap-4 text-black flex items-center ">
                         <div className="h-full relative w-[48px] bg-[#F8FFE6] rounded-[8px] flex items-center justify-center ">
                           <Image
@@ -136,9 +138,16 @@ function Nav() {
                   );
                 })}
               </div>
-              <button className="bg-[#E7EAEA] flex items-center justify-center font-clashreg text-[16px] w-full mt-[24px] rounded-[4px] h-[63px] ">
-                View all courses <BsArrowRightShort size={20} />
-              </button>
+              <Link
+                onClick={() => {
+                  setActive(false);
+                }}
+                href={"/courses"}
+              >
+                <button className="bg-[#E7EAEA] flex items-center justify-center font-clashreg text-[16px] w-full mt-[24px] rounded-[4px] h-[63px] ">
+                  View all courses <BsArrowRightShort size={20} />
+                </button>
+              </Link>
             </motion.div>
           </div>
         )}
