@@ -103,7 +103,7 @@ function Nav() {
                   {
                     icon: ic1,
                     title: "UI/UX Design",
-                    url: "uiux-design",
+                    url: "uixux-design",
                   },
                   {
                     icon: ic2,
@@ -113,7 +113,7 @@ function Nav() {
                   {
                     icon: ic3,
                     title: "Frontend Development",
-                    url: "backend-development",
+                    url: "graphic-design",
                   },
                   {
                     icon: ic4,
@@ -122,7 +122,12 @@ function Nav() {
                   },
                 ].map((d, id) => {
                   return (
-                    <Link href={`/courses/${d.url}`}>
+                    <Link
+                      onClick={() => {
+                        setActive(false);
+                      }}
+                      href={`/courses/${d.url}`}
+                    >
                       <div className="w-[270px] h-[48px] gap-4 text-black flex items-center ">
                         <div className="h-full relative w-[48px] bg-[#F8FFE6] rounded-[8px] flex items-center justify-center ">
                           <Image
