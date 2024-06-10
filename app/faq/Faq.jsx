@@ -81,7 +81,7 @@ const Faq = () => {
             key={index}
             className={` transition-all rounded-[20px] sm:px-6 ${
               activeIndex === index
-                ? "bg-primary text-black "
+                ? "bg-new text-black "
                 : "text-white bg-tertiary"
             } py-4`}
             layout

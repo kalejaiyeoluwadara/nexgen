@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import Button from "../components/Button";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo.png";
 import Image from "next/image";
 import ic1 from "../../assets/ic1.svg";
 import ic2 from "../../assets/ic2.svg";
@@ -27,41 +27,39 @@ function Nav() {
         </Link>
       </section>
       <section className="flex gap-[20px]">
-        {["courses", "students", "about", "articles", "contact us"].map(
-          (tar, id) => {
-            const isActive =
-              tar === "courses"
-                ? pathname.startsWith("/courses")
-                : pathname === `/${tar === "contact us" ? "contact" : tar}`;
+        {["courses", "about", "articles", "contact us"].map((tar, id) => {
+          const isActive =
+            tar === "courses"
+              ? pathname.startsWith("/courses")
+              : pathname === `/${tar === "contact us" ? "contact" : tar}`;
 
-            return (
-              <li
-                key={id}
-                className={`hover:text-opacity-100 hover:text-primary transition-all text-[16px] ${
-                  isActive ? "text-primary" : "text-white text-opacity-60"
-                } capitalize font-normal font-urbanist list-none gap-20`}
-              >
-                {tar === "courses" ? (
-                  <button
-                    className={` gap-2 flex items-center justify-center ${
-                      active ? "text-primary" : ""
-                    } `}
-                    onClick={() => {
-                      setActive(() => !active);
-                    }}
-                  >
-                    {tar}
-                    {active ? <IoIosArrowUp /> : <IoIosArrowDown />}
-                  </button>
-                ) : (
-                  <Link href={`/${tar === "contact us" ? "contact" : tar}`}>
-                    {tar}
-                  </Link>
-                )}
-              </li>
-            );
-          }
-        )}
+          return (
+            <li
+              key={id}
+              className={`hover:text-opacity-100 hover:text-primary transition-all text-[16px] ${
+                isActive ? "text-primary" : "text-white text-opacity-60"
+              } capitalize font-normal font-urbanist list-none gap-20`}
+            >
+              {tar === "courses" ? (
+                <button
+                  className={` gap-2 flex items-center justify-center ${
+                    active ? "text-primary" : ""
+                  } `}
+                  onClick={() => {
+                    setActive(() => !active);
+                  }}
+                >
+                  {tar}
+                  {active ? <IoIosArrowUp /> : <IoIosArrowDown />}
+                </button>
+              ) : (
+                <Link href={`/${tar === "contact us" ? "contact" : tar}`}>
+                  {tar}
+                </Link>
+              )}
+            </li>
+          );
+        })}
       </section>
       <section>
         <Link href={"#courses"}>
@@ -149,7 +147,7 @@ function Nav() {
                 }}
                 href={"/courses"}
               >
-                <button className="bg-[#E7EAEA] flex items-center justify-center font-clashreg text-[16px] w-full mt-[24px] rounded-[4px] h-[63px] ">
+                <button className="bg-[#F8FCFF] flex items-center justify-center font-clashreg text-[16px] w-full mt-[24px] rounded-[4px] h-[63px] ">
                   View all courses <BsArrowRightShort size={20} />
                 </button>
               </Link>

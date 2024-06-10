@@ -10,8 +10,8 @@ function Card({ name, role, link1, link2, state = false }) {
       onClick={() => {
         setActive(!active);
       }}
-      className={`flex justify-between hover:bg-primary cursor-pointer hover:text-black items-center rounded-[20px] transition-all px-4 w-[625px] h-[99px] ${
-        active ? "bg-primary text-black " : "bg-tertiary text-white "
+      className={`flex justify-between hover:bg-new cursor-pointer hover:text-black items-center rounded-[20px] transition-all px-4 w-[625px] h-[99px] ${
+        active ? "bg-new text-black " : "bg-tertiary text-white "
       }  `}
     >
       <h1 className="text-[24px]">{name}</h1>

@@ -1,3 +1,22 @@
+export const courseDetails = [
+  {
+    title: "Product Design",
+    sub: "Master the principles of visual design, user research, and prototyping to create intuitive and aesthetically pleasing interfaces that users love.",
+  },
+  {
+    title: "Backend Development",
+    sub: "Master the principles of visual design, user research, and prototyping to create intuitive and aesthetically pleasing interfaces that users love.",
+  },
+  {
+    title: "Front end Development",
+    sub: "Master the principles of visual design, user research, and prototyping to create intuitive and aesthetically pleasing interfaces that users love.",
+  },
+  {
+    title: "Mobile App Development",
+    sub: "Master the principles of visual design, user research, and prototyping to create intuitive and aesthetically pleasing interfaces that users love.",
+  },
+];
+
 export const courses = [
   {
     course: "Graphic Design",
