@@ -19,7 +19,7 @@ export const courseDetails = [
 
 export const courses = [
   {
-    course: "Graphic Design",
+    course: "Frontend Development",
     route: "/graphic-design",
   },
   {
@@ -31,23 +31,7 @@ export const courses = [
     route: "/backend-development",
   },
   {
-    course: "Mastering UI Design",
-    route: "/ui-design",
-  },
-  {
-    course: "Graphic Design",
-    route: "/graphic-design",
-  },
-  {
-    course: "UI/UX Design",
-    route: "/uixux-design",
-  },
-  {
-    course: "Backend Development",
-    route: "/backend-development",
-  },
-  {
-    course: "Mastering UI Design",
+    course: "Mobile App Development",
     route: "/ui-design",
   },
 ];
