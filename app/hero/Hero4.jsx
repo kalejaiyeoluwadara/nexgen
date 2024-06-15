@@ -81,7 +81,10 @@ function Hero4() {
           Gain knowledge and skills from Industry Experts
         </p>
       </section>
-      <section ref={scrollRef} className="flex  mt-20 gap-4 w-full h-auto  ">
+      <section
+        ref={scrollRef}
+        className="flex  overflow-x-scroll no-scrollbar mt-20 gap-4 w-full h-auto  "
+      >
         {data.map((d, id) => {
           return <Profile img={d.img} name={d.name} role={d.role} />;
         })}
