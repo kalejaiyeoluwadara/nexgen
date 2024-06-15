@@ -14,7 +14,7 @@ function Page() {
     <div>
       {/* <Nav /> */}
       <About1 />
-      <About2 />
+      {/* <About2 /> */}
       <About3 />
       <About4 />
       <Hero5 />

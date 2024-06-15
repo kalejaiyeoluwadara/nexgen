@@ -11,6 +11,9 @@ html{
 body{
   background-color: black;
 }
+.green{
+  @apply text-primary
+}
 .pill{
   @apply border-[1px] text-[8px] font-clashmd bg-white border-gray-400 text-gray-500
 }
