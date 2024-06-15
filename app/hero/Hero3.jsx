@@ -10,7 +10,7 @@ function Hero3() {
   return (
     <div
       id="courses"
-      className="min-h-full  bg-white py-[80px] px-[110px] w-full"
+      className="min-h-full  bg-[#F5F5F5] py-[80px] px-[110px] w-full"
     >
       <section>
         <h4>What course are you interested in?</h4>

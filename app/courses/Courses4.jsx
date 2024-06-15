@@ -9,7 +9,7 @@ function Courses4() {
       </h3>
       <div className="grid mt-[40px] grid-cols-3 gap-[44px] ">
         {courses.map((d, id) => {
-          return <Card title={d.course} route={d.route} />;
+          return <Card title={d.course} img={d.image} route={d.route} />;
         })}
       </div>
     </main>

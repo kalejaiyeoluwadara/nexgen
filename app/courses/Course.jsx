@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import bac from "../../assets/bac.png";
 import Button from "../components/Button";
-
 function Course() {
   return (
     <div

@@ -5,10 +5,10 @@ import Link from "next/link";
 function Card({ title, sub, img, route, desc }) {
   return (
     <Link href={`/courses/${route}`}>
-      <div className="h-[434px] relative border-[1px] cursor-pointer hover:border-gray-600 transition-all border-gray-300 flex-shrink-0  w-[260px] rounded-[30px] p-4  ">
+      <div className="h-[434px] relative border-[1px] cursor-pointer hover:border-gray-600 transition-all border-gray-300 flex-shrink-0   rounded-[30px] p-4  ">
         <div className="relative">
           <Image
-            className="h-[196px] object-cover w-[338px] rounded-[28px] "
+            className="h-[196px] object-cover w-full rounded-[28px] "
             src={img}
             alt=""
           />
