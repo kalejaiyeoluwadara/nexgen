@@ -6,8 +6,8 @@ import "../public/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/WEB/css/clas
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Nextgen",
-  description: "Nextgen",
+  title: "Nexgen",
+  description: "Nexgen",
   icons: {
     icon: [
       {
