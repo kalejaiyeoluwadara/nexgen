@@ -72,7 +72,7 @@ function Hero4() {
   const scrollPercentage = (scrollLeft / scrollWidth) * 100;
 
   return (
-    <div className="bg-sec min-h-[858px] px-[110px] py-[80px] text-white w-full ">
+    <div className="bg-sec min-h-[858px] px-[90px] py-[80px] text-white w-full ">
       <section className="">
         <h3 className="text-[36px] font-clashmd ">
           Learn from experienced mentors & tutors

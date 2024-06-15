@@ -16,23 +16,34 @@ export const courseDetails = [
     sub: "Master the principles of visual design, user research, and prototyping to create intuitive and aesthetically pleasing interfaces that users love.",
   },
 ];
-
+import fe from "../assets/fe.png";
+import mb from "../assets/mb.png";
+import be from "../assets/be.png";
+import ux from "../assets/ux.png";
 export const courses = [
-  {
-    course: "Frontend Development",
-    route: "/graphic-design",
-  },
   {
     course: "UI/UX Design",
     route: "/uixux-design",
+    desc: "Master the principles of visual design, user research, and prototyping to create intuitive and aesthetically pleasing interfaces that users love.",
+    image: ux,
+  },
+  {
+    course: "Frontend Development",
+    route: "/graphic-design",
+    desc: "Master HTML, CSS, JavaScript, and modern frameworks to build responsive websites that deliver exceptional user experiences.",
+    image: fe,
   },
   {
     course: "Backend Development",
     route: "/backend-development",
+    desc: "Learn to implement robust server-side apps, manage databases, ensure seamless integration & performance for scalable and secure web services.",
+    image: be,
   },
   {
     course: "Mobile App Development",
     route: "/ui-design",
+    desc: "Gain proficiency in iOS and Android development, understand mobile UX/UI principles, and build innovative, user-friendly mobile applications.",
+    image: mb,
   },
 ];
 import backend from "../assets/backend.png";
